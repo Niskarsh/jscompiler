@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch --watch public index.js",
+    "nodemods": "npm i"
+  },
+  "author": "Niskarsh",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "bytenode": "^1.1.1",
+    "dotenv": "^8.0.0",
+    "eval": "^0.1.3",
+    "express": "^4.17.1",
+    "node-cmd": "^3.0.0",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel-watch": "^7.0.0"
+  },
+  "keywords": [],
+  "description": ""
+}
